@@ -1,0 +1,51 @@
+
+.product-card {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+}
+.product-card .card-body {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            flex-grow: 1;
+}
+.product-card img {
+            object-fit: cover;
+}
+.product-card .card-footer {
+            background: none;
+            border-top: none;
+            display: flex;
+            justify-content: space-between;
+}
+.product-card .btn {
+            flex: 0 0 48%;
+            margin: 0;
+}
+.product-card .btn-secondary {
+            margin-right: auto;
+}
+.product-card .btn-primary {
+            margin-left: auto;
+}
+
+.contenedor{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.8),
+        rgba(0,0,0,0.8)
+    ),url(https://setupgamer.es/wp-content/uploads/2023/12/setup-gaming.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 80vh; 
+    text-align: center;
+    padding: 10%;
+}
+
+.contenedor h1{
+	color: white;
+}
